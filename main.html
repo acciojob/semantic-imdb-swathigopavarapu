@@ -13,7 +13,7 @@
       background-color: #f4f4f9;
       color: #333;
     }
-    header, nav, section, aside, footer {
+    header, nav, section, aside, footer, details {
       padding: 20px;
       margin: 10px;
       border-radius: 8px;
@@ -35,6 +35,9 @@
     }
     nav a:hover {
       text-decoration: underline;
+    }
+    details {
+      background: #ecf0f1;
     }
     section {
       background: #ecf0f1;
@@ -63,29 +66,30 @@
     <a id="nav-quote" href="#quote">Quotes</a>
   </nav>
 
-  <!-- Summary -->
-  <section id="summary">
-    <h2>Summary</h2>
+  <!-- Summary Section -->
+  <details>
+    <summary>Movie Summary</summary>
     <p>
       Inception is a science fiction film about Dom Cobb, a thief who enters the
       dreams of others to steal secrets. He’s offered a chance at redemption if he
       can accomplish the impossible: planting an idea into someone’s subconscious.
       The movie explores dreams, reality, and the power of the human mind.
     </p>
-  </section>
+  </details>
 
   <!-- Actors Section -->
-<section id="actor">
-  <h2>Main Actors</h2>
-  <p>This section highlights the main cast of Inception.</p>
-  <ul>
-    <li>Leonardo DiCaprio as Dom Cobb</li>
-    <li>Joseph Gordon-Levitt as Arthur</li>
-    <li>Elliot Page as Ariadne</li>
-    <li>Tom Hardy as Eames</li>
-    <li>Ken Watanabe as Saito</li>
-  </ul>
-</section>
+  <section id="actor">
+    <h2>Main Actors</h2>
+    <p>This section highlights the main cast of Inception.</p>
+    <ul>
+      <li>Leonardo DiCaprio as Dom Cobb</li>
+      <li>Joseph Gordon-Levitt as Arthur</li>
+      <li>Elliot Page as Ariadne</li>
+      <li>Tom Hardy as Eames</li>
+      <li>Ken Watanabe as Saito</li>
+    </ul>
+  </section>
+
   <!-- Quotes Section -->
   <section id="quote">
     <h2>Favorite Quote</h2>
